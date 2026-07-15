@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact us"
+  },
+  "hero": {
+    "title": "Analyze your energy performance",
+    "description": "Discover your home's DPE rating with AI",
+    "button": "Analyze your home"
+  },
+  "simulateur": {
+    "title": "Simulate your",
+    "highlight": "DPE",
+    "surface": "Surface area (m²)",
+    "annee": "Year of construction",
+    "button": "Calculate my DPE",
+    "error": "⚠️ Please fill in all fields"
+  },
+  "features": {
+    "title": "How does it",
+    "highlight": "work?",
+    "card1_title": "Consumption analysis",
+    "card1_text": "Get detailed insights on your energy consumption.",
+    "card2_title": "Personalized recommendations",
+    "card2_text": "Receive advice tailored to your energy profile.",
+    "card3_title": "Real-time monitoring",
+    "card3_text": "Monitor your consumption and adjust your habits."
+  },
+  "about": {
+    "mission_title": "Our",
+    "mission_highlight": "mission",
+    "mission_text": "EnergyHome AI guides you in transforming your home into an intelligent and energy-efficient space.",
+    "context_title": "The",
+    "context_highlight": "context",
+    "context_text": "The Climate and Resilience Act imposes strict energy efficiency requirements. G-rated properties have been banned from rental since 2025, F-rated ones will follow in 2028.",
+    "approach_title": "Our",
+    "approach_highlight": "approach",
+    "approach_text": "EnergyHome AI uses open ADEME data to analyze the energy performance of French homes using artificial intelligence.",
+    "tech_title": "Technologies",
+    "tech_highlight": "we use",
+    "badge_fastapi": "FastAPI — coming soon",
+    "badge_python": "Python — coming soon",
+    "badge_sql": "SQL — coming soon"
+  },
+  "contact": {
+    "title": "Contact",
+    "highlight": "us",
+    "description": "Have a question about your DPE? We'll get back to you quickly.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "name_placeholder": "Your name",
+    "email_placeholder": "Your email",
+    "message_placeholder": "Your message",
+    "button": "Send"
+  },
+  "footer": {
+    "description": "Your energy partner",
+    "links_title": "Useful Links",
+    "social_title": "Follow us",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "copyright": "© 2026 EnergyHome AI",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  }
+}

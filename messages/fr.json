@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "contact": "Contactez-nous"
+  },
+  "hero": {
+    "title": "Analysez votre performance énergétique",
+    "description": "Découvrez la classe DPE de votre logement grâce à l'IA",
+    "button": "Analyser votre logement"
+  },
+  "simulateur": {
+    "title": "Simulez votre",
+    "highlight": "DPE",
+    "surface": "Surface (m²)",
+    "annee": "Année de construction",
+    "button": "Calculer mon DPE",
+    "error": "⚠️ Veuillez remplir tous les champs"
+  },
+  "features": {
+    "title": "Comment ça",
+    "highlight": "marche ?",
+    "card1_title": "Analyse de consommation",
+    "card1_text": "Obtenez des insights détaillés sur votre consommation d'énergie.",
+    "card2_title": "Recommandations personnalisées",
+    "card2_text": "Recevez des conseils adaptés à votre profil énergétique.",
+    "card3_title": "Suivi en temps réel",
+    "card3_text": "Surveillez votre consommation et ajustez vos habitudes."
+  },
+  "about": {
+    "mission_title": "Notre",
+    "mission_highlight": "mission",
+    "mission_text": "EnergyHome AI vous accompagne dans la transformation de votre maison en un espace intelligent et écoénergétique.",
+    "context_title": "Le",
+    "context_highlight": "contexte",
+    "context_text": "La loi Climat et Résilience impose des obligations strictes en matière d'efficacité énergétique. Les logements classés G sont interdits à la location depuis 2025, les F le seront en 2028.",
+    "approach_title": "Notre",
+    "approach_highlight": "approche",
+    "approach_text": "EnergyHome AI s'appuie sur les données ouvertes de l'ADEME pour analyser la performance énergétique des logements français grâce à l'intelligence artificielle.",
+    "tech_title": "Les technologies",
+    "tech_highlight": "utilisées",
+    "badge_fastapi": "FastAPI — à venir",
+    "badge_python": "Python — à venir",
+    "badge_sql": "SQL — à venir"
+  },
+  "contact": {
+    "title": "Contactez-",
+    "highlight": "nous",
+    "description": "Une question sur votre DPE ? On vous répond rapidement.",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "name_placeholder": "Votre nom",
+    "email_placeholder": "Votre email",
+    "message_placeholder": "Votre message",
+    "button": "Envoyer"
+  },
+  "footer": {
+    "description": "Votre partenaire énergétique",
+    "links_title": "Liens Utiles",
+    "social_title": "Suivez-nous",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "copyright": "© 2026 EnergyHome AI",
+    "home": "Accueil",
+    "about": "À Propos",
+    "contact": "Contact"
+  }
+}

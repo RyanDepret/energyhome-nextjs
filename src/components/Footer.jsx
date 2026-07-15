@@ -1,24 +1,27 @@
+'use client'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import './Footer.css'
 
 export default function Footer() {
+  const t = useTranslations('footer')
   return (
     <footer id="footer">
       <div className="footer-top">
         <div className="footer-logo">
           <h2>EnergyHome AI</h2>
-          <p>Votre partenaire énergétique</p>
+          <p>{t('description')}</p>
         </div>
         <div className="footer-links">
-          <h3>Liens Utiles</h3>
+          <h3>{t('links_title')}</h3>
           <ul>
-            <li><Link href="/">Accueil</Link></li>
-            <li><Link href="/about">À Propos</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
+            <li><Link href="/">{t('home')}</Link></li>
+            <li><Link href="/about">{t('about')}</Link></li>
+            <li><Link href="/contact">{t('contact')}</Link></li>
           </ul>
         </div>
         <div className="footer-social">
-          <h3>Suivez-nous</h3>
+          <h3>{t('social_title')}</h3>
           <i className="fab fa-facebook"></i>
           <i className="fab fa-twitter"></i>
           <i className="fab fa-instagram"></i>
@@ -29,8 +32,8 @@ export default function Footer() {
         <div></div>
         <p>© 2026 EnergyHome AI</p>
         <ul>
-          <li><Link href="#">Mentions légales</Link></li>
-          <li><Link href="#">Politique de confidentialité</Link></li>
+          <li><Link href="#">{t('legal')}</Link></li>
+          <li><Link href="#">{t('privacy')}</Link></li>
         </ul>
       </div>
     </footer>

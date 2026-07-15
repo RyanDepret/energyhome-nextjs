@@ -1,15 +1,17 @@
 'use client'
 import { useState } from 'react'
 import './Simulateur.css'
+import { useTranslations } from 'next-intl'
 
 function Simulateur() {
   const [surface, setSurface] = useState('')
   const [annee, setAnnee] = useState('')
   const [resultat, setResultat] = useState('')
+  const t = useTranslations('simulateur')
 
   function calculerDPE() {
     if (surface === '' || annee === '') {
-      setResultat('⚠️ Veuillez remplir tous les champs')
+      setResultat(t('error'))
       return
     }
 
@@ -26,22 +28,22 @@ function Simulateur() {
 
   return (
     <section className="simulateur">
-      <h2 className="section-title">Simulez votre <span className="highlight">DPE</span></h2>
+      <h2 className="section-title">{t('title')} <span className="highlight">{t('highlight')}</span></h2>
       <div className="dpe-form">
         <input
           type="number"
-          placeholder="Surface (m²)"
+          placeholder={t('surface')}
           value={surface}
         onChange={(e) => setSurface(e.target.value)}
       />
       <input
         type="number"
-        placeholder="Année de construction"
+        placeholder={t('annee')}
         value={annee}
         onChange={(e) => setAnnee(e.target.value)}
       />
       
-      <button onClick={calculerDPE}>Calculer mon DPE</button>
+      <button onClick={calculerDPE}>{t('button')}</button>
       <p>{resultat}</p>
       </div>
     </section>

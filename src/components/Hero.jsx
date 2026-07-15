@@ -1,9 +1,11 @@
 'use client'
 import { useState } from 'react'
 import './Hero.css'
+import { useTranslations } from 'next-intl'
 
 function Hero() {
   const [message, setMessage] = useState('')
+  const t = useTranslations('hero')
 
   function handleClick() {
     setMessage('Analyse en cours...')
@@ -12,9 +14,9 @@ function Hero() {
   return (
     <section id="hero" style={{ backgroundImage: "url('/hero-bg.png')" }}>
       <div className="hero-content">
-        <h1>Analysez votre performance énergétique</h1>
-        <p>Découvrez la classe DPE de votre logement grâce à l'IA</p>
-        <button onClick={handleClick}>Analyser votre logement</button>
+        <h1>{t('title')}</h1>
+        <p>{t('description')}</p>
+        <button onClick={handleClick}>{t('button')}</button>
         <p>{message}</p>
       </div>
     </section>
