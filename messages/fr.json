@@ -65,5 +65,11 @@
     "home": "Accueil",
     "about": "À Propos",
     "contact": "Contact"
-  }
+  },
+  "metadata": {
+  "about_title": "À Propos — EnergyHome AI",
+  "about_description": "Découvrez la mission d'EnergyHome AI...",
+  "contact_title": "Contact — EnergyHome AI",
+  "contact_description": "Contactez l'équipe d'EnergyHome AI..."
+}
 }
