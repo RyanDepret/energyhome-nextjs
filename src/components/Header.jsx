@@ -20,15 +20,18 @@ export default function Header() {
       </button>
 
       <nav className={menuOpen ? "nav-open" : "nav-closed"}>
-        <button className="close-btn" onClick={() => setMenuOpen(false)}>✕</button>
-        <ul className="nav-links">
-          <li><Link href="/" onClick={() => setMenuOpen(false)}>Accueil</Link></li>
-          <li><Link href="/about" onClick={() => setMenuOpen(false)}>À Propos</Link></li>
-        </ul>
-        <Link href="/contact" className="nav-btn" onClick={() => setMenuOpen(false)}>
-          Contactez-nous
+      <button className="close-btn" onClick={() => setMenuOpen(false)}>✕</button>
+      <ul className="nav-links">
+        <li><Link href="/" onClick={() => setMenuOpen(false)}>Accueil</Link></li>
+        <li><Link href="/about" onClick={() => setMenuOpen(false)}>À Propos</Link></li>
+      </ul>
+        <Link href="/contact" className="nav-btn mobile-nav-btn" onClick={() => setMenuOpen(false)}>
+             Contactez-nous
         </Link>
-      </nav>
+        </nav>
+        <Link href="/contact" className="nav-btn desktop-btn">
+             Contactez-nous
+        </Link>
     </header>
   )
 }
