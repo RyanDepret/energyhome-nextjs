@@ -1,0 +1,75 @@
+.simulateur {
+    background: radial-gradient(circle, #D1FAE5, #f0fdf4);
+    padding: 80px 20px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dpe-form {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 32px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.dpe-form p:empty {
+    display: none;
+}
+
+.dpe-form input {
+    padding: 14px 20px;
+    border-radius: 50px;
+    border: 1px solid #E5E7EB;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+.dpe-form input:focus {
+    border-color: #10B981;
+}
+
+.dpe-form button {
+    background-color: #10B981;
+    color: #ffffff;
+    padding: 16px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.dpe-form button:hover {
+    background-color: #059669;
+}
+
+.dpe-form h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1A1A1A;
+    margin-bottom: 10px;
+}
+
+.dpe-form input[type="number"]::-webkit-outer-spin-button,
+.dpe-form input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.dpe-form input[type="number"] {
+    -moz-appearance: textfield;
+}

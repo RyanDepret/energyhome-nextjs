@@ -1,0 +1,64 @@
+.about {
+    padding-top: 100px;
+}
+
+.about-hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(180deg, #ffffff 0%, #D1FAE5 100%);
+}
+
+.about-hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1A1A1A;
+    margin-bottom: 40px;
+}
+
+.about-hero p {
+    font-size: 18px;
+    color: #6B7280;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-context,
+.about-approach,
+.about-tech {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-context h2,
+.about-approach h2,
+.about-tech h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1A1A1A;
+    margin-bottom: 40px;
+}
+
+.about-context p,
+.about-approach p {
+    font-size: 16px;
+    color: #6B7280;
+    line-height: 1.8;
+}
+.tech-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.tech-badge {
+    background-color: #D1FAE5;
+    color: #065F46;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #10B981;
+}
